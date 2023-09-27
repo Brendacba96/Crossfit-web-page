@@ -1,0 +1,187 @@
+* {
+    font-family: 'Quicksand', sans-serif;
+    padding: 5px;
+
+}
+
+body {
+    background-color: #000000;
+}
+
+.navigation {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    font-size: 15px;
+    list-style: none;
+    color: white;
+    text-transform: uppercase;
+    margin: 0 -5px;
+}
+
+.link {
+    color: white;
+}
+
+header {
+    background-image: url(https://images.unsplash.com/photo-1434682772747-f16d3ea162c3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1748&q=80);
+    background-position: center;
+    filter: grayscale();
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+header p {
+    font-size: 30px;
+
+}
+
+.tituloprincipal {
+    border: 0.50px solid black;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    /* padding: -5px; */
+
+}
+
+.titulo-contacto {
+    color: white;
+    text-align: center;
+    margin: 20px;
+  
+
+}
+
+
+
+.form-contacto {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    list-style: none;
+    color: white;
+}
+
+
+aside {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid white;
+    color: white;
+    border-radius: 15px;
+
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+
+
+}
+
+.bottom-margin {
+    flex-direction: column;
+
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    grid-gap: 20px;
+  
+   
+
+
+}
+
+.icons a {
+    font-size: 30px;
+    text-decoration: none;
+   
+}
+
+.fa-brands {
+    color: white;
+}
+
+footer {
+    color: white;
+    margin: 5px;
+    text-align: center;
+}
+
+.link {
+    color: white;
+}
+
+.buscar {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    gap: 10px;
+}
+
+
+
+
+
+
+form {
+  
+    margin: 0 auto;
+    width: 400px;
+   
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+}
+
+div+div {
+    margin-top: 1em;
+}
+
+label {
+   
+    display: inline-block;
+    width: 50pxpx;
+    text-align: right;
+}
+
+input,
+textarea {
+    
+    font: 1em sans-serif;
+    
+    width: 300px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+   
+    border: 1px solid #999;
+    border-radius: 5px;
+}
+
+input:focus,
+textarea:focus {
+   
+    border-color: #000;
+}
+
+textarea {
+   
+    vertical-align: top;
+   
+    height: 5em;
+   
+    resize: vertical;
+}
+
+   
+.div.buttom {
+    text-align: left;
+
+}

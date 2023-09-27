@@ -1,0 +1,375 @@
+* {
+    font-family: 'Quicksand', sans-serif;
+    padding: 5px;
+
+}
+
+body {
+    background-color: #000000;
+    min-width: 300px;
+}
+
+
+
+.navigation {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    font-size: 15px;
+    list-style: none;
+    color: white;
+    text-transform: uppercase;
+    margin: 0 -5px;
+}
+
+.link {
+    color: white;
+    font-weight: bold;
+
+}
+
+.lista {
+    margin: 30px;
+    text-align: left;
+
+}
+
+
+
+header {
+    background-image: url(https://images.unsplash.com/photo-1434682881908-b43d0467b798?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1748&q=80);
+    background-position: center;
+    filter: grayscale();
+}
+
+a {
+    text-decoration: none;
+}
+
+header p {
+    font-size: 30px;
+
+}
+
+.tituloprincipal {
+    border: 0.50px solid black;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+
+}
+
+.subtitulo-principal {
+    text-align: left;
+    margin: 40px;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+
+
+}
+
+.titulo {
+    text-align: center;
+    font-style: 'Quicksand', sansserif bold;
+    color: white;
+    font-size: 30px;
+
+}
+
+.parrafo {
+    text-align: center;
+    font-size: 15px;
+    text-align: start;
+    text-indent: 50px;
+    color: white;
+    ;
+}
+
+
+#section {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    flex-wrap: row wrap;
+    border-radius: 1px solid white;
+    min-width: 300px;
+}
+
+
+h3 {
+    color: white;
+    text-align: center;
+
+}
+
+h2 {
+    text-align: left;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+
+
+
+}
+
+h3 {
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+
+
+
+}
+
+p {
+    color: white;
+    font-size: 20px;
+}
+
+.imagen {
+    max-width: 300px;
+    height: auto;
+    flex-direction: row;
+    align-content: space-around;
+    gap: 5px;
+    border-radius: 20px;
+    filter: grayscale();
+
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid white;
+    color: white;
+    border-radius: 15px;
+
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+
+
+}
+
+.contenedor-de-imagenes {
+
+    border-radius: 15px;
+}
+
+footer {
+    color: white;
+    margin: 5px;
+    text-align: center;
+}
+
+
+
+.bottom-margin {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+
+}
+
+.buscar {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    gap: 10px;
+
+}
+
+
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+
+
+
+
+}
+
+.section-1 {
+
+    border-radius: 15px;
+}
+
+
+
+
+
+
+.contenedor-acordeon {
+    width: 100%;
+    max-width: 800px;
+    min-width: 300px;
+
+
+
+}
+
+.contenedor-acordeon h2 {
+    text-align: center;
+    font-size: 40px;
+    border-radius: 20px;
+
+
+
+}
+
+.acordeon {
+    background: #252424;
+    border-radius: 20PX;
+    max-width: 70%;
+    min-width: 300px;
+    border: 1px solid rgb(55, 55, 55);
+
+
+}
+
+.acordeon label {
+    display: block;
+    padding: 20px;
+    font-size: 20px;
+    background: #c0afaf;
+    cursor: pointer;
+    margin-bottom: 2px;
+    transition: all 300ms ease;
+    border-radius: 15px;
+}
+
+.acordeon label:hover {
+
+    background: #d8d8d8;
+}
+
+.acordeon .contenido-acordeon {
+    padding: 0px;
+    margin: opx 20px;
+    max-height: 0px;
+    overflow: hidden;
+    transition: all 300ms ease-in-out;
+
+}
+
+.btn-acordeon:checked~.contenido-acordeon {
+    max-height: 600px;
+    padding: 15px 0px;
+
+
+}
+
+.btn-acordeon {
+    display: none;
+}
+
+.explicacion-ejercicios {
+    max-width: 1700px;
+    width: 90%;
+    height: auto;
+    margin: 10px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    min-width: 300px;
+
+
+}
+
+p {
+
+    font-size: 15px;
+}
+
+li {
+    color: white;
+    list-style: none;
+
+}
+
+ul {
+    text-align: center;
+}
+
+.acordeonazul {
+    background: #252424;
+    border-radius: 20PX;
+    max-width: 70%;
+    min-width: 300px;
+    border: 1px solid rgb(55, 55, 55);
+
+}
+
+.acordeonazul label {
+    display: block;
+    padding: 20px;
+    font-size: 20px;
+    background: #93b1af;
+    cursor: pointer;
+    margin-bottom: 2px;
+    transition: all 300ms ease;
+    border-radius: 15px;
+}
+
+.acordeonazul label:hover {
+
+    background: #d8d8d8;
+}
+
+.acordeonazul .contenido-acordeon {
+    padding: 0px;
+    margin: opx 20px;
+    max-height: 0px;
+    overflow: hidden;
+    transition: all 300ms ease-in-out;
+
+}
+
+
+input,
+textarea {
+    font: 1em sans-serif;
+    width: 300px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #999;
+    border-radius: 5px;
+}
+
+input:focus,
+textarea:focus {
+    border-color: #000;
+}
+
+textarea {
+    vertical-align: -webkit-baseline-middle;
+    height: 5em;
+
+    resize: vertical;
+}
+
+form {
+
+    margin: 0 auto;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+label {
+
+    display: inline-block;
+    width: 50pxpx;
+
+}
